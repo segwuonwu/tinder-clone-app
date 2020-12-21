@@ -11,8 +11,11 @@ function App() {
       <Header />
       <Router>
         <Switch>
+          <Route path="/profile">
+            <h1>I am the profile page</h1>
+          </Route>
           <Route path="/chat">
-            <h1>I am the chatpage</h1>
+            <h1>I am the chat page</h1>
           </Route>
           <Route path="/">
             <TinderCards />
@@ -24,11 +27,3 @@ function App() {
 }
 
 export default App;
-
-{/* Header */ }
-// <Header />
-
-{/* Tinder Cards */ }
-
-{/* Chat screen */ }
-{/* Individual chat screen */ }
